@@ -1,25 +1,11 @@
-/*text!*/
-body
-{
-margin: o;
-padding:  0;
-}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black
+    
 
-section
-{
-   width: 100%;
-   height: 500px;
-   background: url(Family.jpg);
-   background-size: cover;
-   position: relative;
-   overflow: hidden;
-}
-.overlay
-{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%
-height: 100%
-background: rgba(0,0,255,7);
+
 }
