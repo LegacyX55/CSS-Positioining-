@@ -12,8 +12,6 @@ body {
 }
 
 
-<style type="text/css">
-
 span {
   color: green;
 }
@@ -38,7 +36,6 @@ span {
      margin: 20px;
    }
 
-</style>
 
 nav li {
   display: inline-block;
