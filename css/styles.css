@@ -43,3 +43,17 @@ span {
 nav li {
   display: inline-block;
 }
+
+.arrow-anim {
+   color: #00ff00;
+   font-size: 50px;
+   animation: bounce 2s infinite;
+}
+@@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+  transform: translateY(20px);
+  }
+}
