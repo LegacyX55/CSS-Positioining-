@@ -13,3 +13,49 @@ body {
     background: linear-gradient (#33ccff, #ff0066);
     border-radius: 50%
 }
+
+
+<style type="text/css">
+span {
+  color: green;
+}
+
+   #one
+   {
+     background-color: green;
+     width: 300px;
+     height: 300px;
+     float: ;
+   }
+
+   #two
+   {
+     background-color: red;
+     width: 300px;
+     height: 300px;
+     float: right;
+   }
+
+   a{
+      text-decoration: none;
+   }
+
+   a:hover
+   {
+    text-decoration: underline;
+
+   }
+
+   div {
+     display: inline-block;
+     background-color: blue;
+     font-size: 36px;
+     height: 200px;
+
+     outline: 2px black solid;
+     margin: 20px;
+
+
+   }
+
+</style>
