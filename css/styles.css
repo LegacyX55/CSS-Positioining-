@@ -41,6 +41,15 @@ nav li {
   display: inline-block;
 }
 
+body {
+  background: #333
+}
+.container {
+   margin: 40px auto;
+   max-width: 600px;
+}
+.p {
+
 .arrow-anim {
    color: #red;
    font-size: 50px;
