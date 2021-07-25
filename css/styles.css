@@ -61,5 +61,22 @@ arrow-animation: hover;{
   }
 100% {
 transform: translateY(20px);
+}
 
+.box {
+   height: 100px;
+   width: 100px;
+   background: red;
+   margin: 20x auto;
+   display: block;
+   animation: circle 1s forwards;
+}
+
+@keyframes circle {
+  0% {
+    border-radius: 0%;
+  }
+100% {
+  border-radius: 100%;
+   }
 }
