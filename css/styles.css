@@ -47,11 +47,11 @@ nav li {
    max-width: 600px;
 }
 .p {
-
 .arrow-anim {
    color: #red;
    font-size: 50px;
    animation: bounce 2s infinite;
+   position: absolute;
 }
 @keyframes bounce {
   0% {
