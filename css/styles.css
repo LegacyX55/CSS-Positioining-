@@ -52,6 +52,11 @@ nav li {
    font-size: 50px;
    animation: bounce 2s infinite;
 }
+
+.arrow-anim: hover {
+   color: #fff;
+   text-decoration: none;
+}
 @keyframes bounce {
   0% {
     transform: translateY(0px);
