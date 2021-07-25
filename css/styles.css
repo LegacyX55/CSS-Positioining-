@@ -1,39 +1,64 @@
 body {
-margin : 0;
-padding : 0;
-background-color : lightblue;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
 }
 .circle {
-position : relative;
-width : 300px;
-height : 300px;
+    position: relative;
+    width: 300px;
+    height: 300px;
 }
+
+
 span {
-color : green;
+  color: green;
 }
-a {
-text-decoration : none;
-}
-a:hover {
-text-decoration : underline;
-}
-div {
-display : inline-block;
-background-color : blue;
-font-size : 36px;
-height : 200px;
-outline : 2px solid black;
-margin : 20px;
-}
+
+   a{
+      text-decoration: none;
+   }
+
+   a:hover
+   {
+    text-decoration: underline;
+
+   }
+
+   div {
+     display: inline-block;
+     background-color: blue;
+     font-size: 36px;
+     height: 200px;
+
+     outline: 2px black solid;
+     margin: 20px;
+   }
+
+
 nav li {
-display : inline-block;
+  display: inline-block;
 }
+
+
 .container {
-margin : 40px auto;
-max-width : 600px;
+   margin: 40px auto;
+   max-width: 600px;
 }
 p {
-color : green;
-font-size : 50px;
-animation : bounce 2s infinite;
+   color: green;
+   font-size: 50px;
+   animation: bounce 2s infinite;
+}
+{
+arrow-animation: hover;{
+   color: #fff;
+   text-decoration: none;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+100% {
+transform: translateY(20px);
 }
