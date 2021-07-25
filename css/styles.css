@@ -4,7 +4,7 @@ body {
     background-color: lightblue;
 }
 .circle {
-    position: relative;
+    position: absolute;
     width: 300px;
     height: 300px;
 }
