@@ -51,7 +51,6 @@ nav li {
    color: #red;
    font-size: 50px;
    animation: bounce 2s infinite;
-   position: absolute;
 }
 @keyframes bounce {
   0% {
@@ -59,6 +58,5 @@ nav li {
   }
   100% {
   transform: translateY(20px);
-  position: absolute;
   }
 }
