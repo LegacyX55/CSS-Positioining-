@@ -45,7 +45,7 @@ nav li {
 }
 
 .arrow-anim {
-   color: #00ff00;
+   color: #red;
    font-size: 50px;
    animation: bounce 2s infinite;
 }
