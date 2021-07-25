@@ -54,8 +54,11 @@ span {
 
      outline: 2px black solid;
      margin: 20px;
-
-
    }
 
 </style>
+
+nav li {
+  display: inline-block;
+
+}
