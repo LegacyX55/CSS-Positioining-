@@ -13,4 +13,4 @@ Summer C 2021- MMC5277 Web Design Principles
 I, T.J. Legacy-Cole have read the point deduction list and understand that I will lose points for missing items.
 
 ## Image
-![UF Logo](images/uf logo.png)
+![UF Logo](images/uflogo.png)
