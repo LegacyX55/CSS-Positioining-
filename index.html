@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>FAMILY REUNION</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="utf-8">
+  <title>FAMILY REUNION</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <style>
+          div {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          animation-name: example;
+          animation-duration: 4s;
+        }
 
+        @keyframes example {
+          from {background-color: red;}
+          to {background-color: yellow;}
+        }
+  </style>
+  <style>
+        div {
+          width: 100px;
+          height: 100px;
+          background-color: red;
+          position: relative;
+          animation-name: example;
+          animation-duration: 4s;
+          animation-delay: 2s;
+        }
 
-
+        @keyframes example {
+          0%   {background-color:red; left:0px; top:0px;}
+          25%  {background-color:yellow; left:200px; top:0px;}
+          50%  {background-color:blue; left:200px; top:200px;}
+          75%  {background-color:green; left:0px; top:200px;}
+          100% {background-color:red; left:0px; top:0px;}
+        }
+  </style>
 </head>
-
-
 <body>
-    <header>
-    	<h1>Assignment Four</h1>
-
-      <nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="https://www.youtube.com/TheSoapboxx">Podcast</a></li>
-    </header>
-
-    <main>
-    	<p> This weekend I went to a Family Reunion in <span>North Carolina.</span></p>
-
-			<section>
- 			 <h2>Memories</h2>
-
-			 <img class="family=image" src="images/Family.jpg" alt="Family" width="300"
- 			 <p>Family is one of the integral parts of human beings. Every human is incomplete without a family. A family means to have a man, his wife, his kids, and his parents; all are living together. All the family members share equal parts while sharing the responsibilities within the family. It will make the family complete. It is believed that the family is given much importance. It is because everyone believed that a good family makes a good society. Also, a good society can make a good nation.</p>
- 		 </section>
-
- 		 <section>
- 			 <div class="overlay"></div>
-
-		<div class="container">
-
-			 <div class="arrow">
-				 <p>Scroll Down</p>
-				 <a class="arrow-anim fa fa arrow-down fa-2x"
-		href="#"></a>
-	</div>
-
-</div>
-
-			 <ul>
-				 <li>Family</li>
-				 <li>Friends</li>
-				 <li>Photos</li>
-			 </ul>
-
-		</main>
+  <header>
+    <h1>Assignment Four</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/TheSoapboxx">Podcast</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>This weekend I went to a Family Reunion in <span>North Carolina.</span></p>
+    <section>
+      <h2>Memories</h2><img class="family=image" src="images/Family.jpg" alt="Family" width="300">
+      <p>Family is one of the integral parts of human beings. Every human is incomplete without a family. A family means to have a man, his wife, his kids, and his parents; all are living together. All the family members share equal parts while sharing the responsibilities within the family. It will make the family complete. It is believed that the family is given much importance. It is because everyone believed that a good family makes a good society. Also, a good society can make a good nation.</p>
+    </section>
+    <section>
+      <div class="overlay"></div><a href="" class="box"></a>
+      <ul>
+        <li>Family</li>
+        <li>Friends</li>
+        <li>Photos</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
